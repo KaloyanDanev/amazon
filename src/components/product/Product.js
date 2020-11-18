@@ -27,7 +27,7 @@ export default function Product({id, title, image, price, rating}) {
             </p>
             <div className="product__rating">
                 {
-                    Array(rating).fill().map(() => <p>⭐</p>)
+                    Array(rating).fill().map((i,index) => <p key={index}>⭐</p>)
                 }
             </div>
         </div>

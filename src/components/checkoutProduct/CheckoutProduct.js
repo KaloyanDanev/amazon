@@ -13,7 +13,7 @@ export default function CheckoutProduct({id, title, price, image, rating}) {
     };
 
     return (
-        <div className="checkoutProduct">
+        <div className="checkoutProduct" key={id}>
             <img className="checkoutProduct__image" src={image} alt={title}/>
             <div className="checkoutProduct__info">
                 <p className="checkoutProduct__title">{title}</p>
