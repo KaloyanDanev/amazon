@@ -33,14 +33,14 @@ export default function Header() {
                     <span className='header__optionLineTwo'>{user ? 'Sign Out' : 'Sign In'}</span>
                 </div>
             </Link>
-            <Link to="/login" className="header__link">
+            <Link to="/orders" className="header__link">
                 <div className="header__option">
                     <span className="header__optionLineOne">Returns</span>
                     <span className="header__optionLineTwo">& Orders</span>
                 </div>
             </Link>
 
-            <Link to="/login" className="header__link">
+            <Link to="/" className="header__link">
                 <div className="header__option">
                     <span className="header__optionLineOne">Your</span>
                     <span className="header__optionLineTwo">Prime</span>
