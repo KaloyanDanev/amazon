@@ -51,10 +51,10 @@ export default function Home() {
         <div className="home__row">
             <Product
                 id="6"
-                title="Xiaomi Mi Band 5 (Black)"
-                price={35.98}
+                title="All-new Fire HD 8 tablet, 8 HD display, 32 GB, designed for portable entertainment, Black"
+                price={164.98}
                 rating={4}
-                image="https://images-na.ssl-images-amazon.com/images/I/51F2t3z6v3L._AC_SL1000_.jpg"
+                image="https://images-na.ssl-images-amazon.com/images/I/61jIs7q6SML._AC_SL1000_.jpg"
             />
         </div>
     </div>
